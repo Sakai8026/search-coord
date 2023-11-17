@@ -19,7 +19,7 @@ def read_json_value(i):
   else:
     return None
 
-st.title('座標一蘭・検索')
+st.title('座標一覧・検索')
 
 # ユーザーから数値を受け取る
 i = st.number_input('座標番号を入力:', min_value=0, step=1)
